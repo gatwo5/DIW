@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Georgia, serif;
     background-color: #f4f6f9;
     color: #333;
     margin: 0;
@@ -46,14 +46,28 @@ a:hover {
     color: #0B032D;
     text-decoration: underline;
 }
+
+.tarjeta {
+    padding: 2rem;
+    border: 2px solid #333;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    transition: background-color 0.2s ease
+}
+
+.tarjeta:hover {
+    background-color: rgb(206, 236, 247);
+    transition: background-color 0.2s ease;
+}
 /* Listas */
 
 ul {
-    list-style-type: square;
+    list-style-type: circle;
 }
 
 li {
     margin: 0.5rem 0;
+    padding: 1rem 2rem;
 }
 
 /* Pie de página */

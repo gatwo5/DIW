@@ -1,2 +1,4 @@
-.grid {  }
+.grid {  
+    display: inline-grid;
+}
 .card { background:#fff; border:1px solid #ddd; height:80px; display:grid; place-items:center; }

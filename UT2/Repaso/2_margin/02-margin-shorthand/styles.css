@@ -1,2 +1,13 @@
 .box { width: 120px; height: 50px; background:#cde; display:grid; place-items:center; border:1px solid #9ab; }
 
+.one {
+    margin: 25px 50px;
+}
+
+.two {
+    margin: 25px 50px 75px;
+}
+
+.three{
+    margin: 25px 50px 75px 100px;
+}

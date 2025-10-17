@@ -1,1 +1,5 @@
 .item { writing-mode: horizontal-tb; background:#eef; border:1px solid #99a; }
+.item {
+    margin-block: 24px;
+    margin-inline: 12px;
+}

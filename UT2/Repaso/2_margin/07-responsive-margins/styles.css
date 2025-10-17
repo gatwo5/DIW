@@ -1,2 +1,22 @@
 .wrap { background:#f0fff4; border:1px solid #9ae6b4; min-height:120px; }
 
+@media (min-width:480px){
+    .wrap {
+        margin-top: 12px;
+        margin-inline: 12px;
+    }
+}
+
+@media (min-width:600px) {
+    .wrap {
+        margin-top: 25px; 
+        margin-inline: 25px;
+    }
+}
+
+@media (min-width:1025px) {
+    .wrap {
+        margin-block: 50px;
+        margin-inline: 50px;
+    }
+}

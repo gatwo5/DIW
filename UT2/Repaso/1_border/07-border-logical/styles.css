@@ -1,1 +1,4 @@
 .note { padding:12px; background:#fef3c7;  }
+.note {
+    border-inline-start: 2px solid green;
+}

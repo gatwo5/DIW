@@ -1,2 +1,22 @@
 .card { width: 140px; height: 70px; display:grid; place-items:center; margin:12px 0; background:#f9fafb; }
 
+.a {
+    border-style: dashed;
+    border-width: 5px;
+    border-color: darkgoldenrod;
+    background-color: darkred;
+}
+
+.b {
+    border-style:ridge;
+    border-width: 20px;
+    border-color: blue;
+    background-color: aqua;
+}
+
+.c{
+    border-style: double;
+    border-width: 10px;
+    border-color: purple;
+    background-color: floralwhite;
+}

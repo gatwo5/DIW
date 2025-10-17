@@ -1,2 +1,13 @@
 .box { width: 140px; height: 60px; display:grid; place-items:center; margin:10px 0; }
 
+.one {
+    border: 2px solid red;
+}
+
+.two {
+    border: 30px dotted blue;
+}
+
+.three{
+    border: 10px dashed green;
+}

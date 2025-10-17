@@ -1,2 +1,9 @@
 .striped, .callout { padding:16px; margin:12px 0; background:#fff; }
 
+.striped{
+    border-bottom: 2px solid grey;
+}
+
+.callout{
+    border-left: 6px solid red;
+}

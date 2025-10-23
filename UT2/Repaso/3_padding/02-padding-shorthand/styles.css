@@ -3,3 +3,6 @@
 /* b: 10px arriba/abajo y 30px lados */
 /* c: 10px arriba, 20px lados, 5px abajo */
 
+.a {padding: 20px;}
+.b {padding:10px 30px}
+.c {padding: 10px 20px 5px;}

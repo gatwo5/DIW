@@ -1,4 +1,7 @@
-.grid {  
-    display: inline-grid;
-}
 .card { background:#fff; border:1px solid #ddd; height:80px; display:grid; place-items:center; }
+
+.card {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}

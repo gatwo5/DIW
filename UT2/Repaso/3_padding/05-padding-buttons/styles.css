@@ -1,2 +1,13 @@
 .btn { background:#1f2937; color:#fff; border:0; border-radius:8px;  }
 
+.sm {
+    padding: 5px;
+}
+
+.md {
+    padding: 15px;
+}
+
+.lg {
+    padding: 30px;
+}

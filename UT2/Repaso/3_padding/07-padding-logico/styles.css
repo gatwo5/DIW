@@ -1,1 +1,7 @@
 .note { background:#fffbeb; border:1px solid #fde68a;  writing-mode: horizontal-tb; }
+
+.note {
+    padding-block: 16px;
+    padding-inline: 32px;
+    writing-mode: horizontal-tb;
+}

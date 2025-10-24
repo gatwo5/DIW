@@ -3,3 +3,10 @@
 .card img { display:block; width:100%; height:auto; }
 .card p { margin:0; }
 
+.card {
+    padding: 24px;
+}
+
+h2 {
+    padding: 12px;
+}

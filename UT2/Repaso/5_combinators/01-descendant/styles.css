@@ -1,2 +1,2 @@
 /* Objetivo: aplicar color: #2563eb a todos los span dentro de .box sin afectar a los span fuera */
-.box span { }
+.box span {color: #2563eb;}

@@ -1,3 +1,15 @@
 .row { display:flex; gap:24px; flex-wrap:wrap; }
 .demo { width:300px; background:#ecfeff; border:10px solid #22d3ee; }
 
+.content-box{
+    width: 300px;
+    padding: 20px;    
+    border: 10px;
+}
+
+.border-box{
+    box-sizing: border-box;
+    width: 300px;
+    padding: 20px;
+    border: 10px;
+}

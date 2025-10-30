@@ -1,3 +1,18 @@
 /* Objetivo: aplica colores distintos a :link (azul), :visited (morado), :hover (subrayado), :active (rojo).
    Recuerda el orden recomendado: :link, :visited, :hover, :active */
 
+a:link {
+   color: blue;
+}
+
+a:visited {
+   color: purple;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+a:active {
+   color: red;
+}

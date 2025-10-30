@@ -2,3 +2,12 @@
    - En :focus, añade un contorno (outline) base.
    - En :focus-visible, mejora la accesibilidad con un contorno más evidente.
 */
+
+
+input:focus-visible {
+   outline: 10px solid green;
+}
+
+button:focus {
+   outline: 10px solid red;
+}

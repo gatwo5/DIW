@@ -7,3 +7,22 @@ input { display:block; margin:8px 0; padding:8px; border:1px solid #d1d5db; }
    - :disabled fondo gris claro
 */
 
+input:required {
+   border: 2px solid blue;
+}
+
+input:optional {
+   border: 2px solid grey;
+}
+
+input:valid {
+   border: 2px solid green;
+}
+
+input:invalid {
+   border: 2px solid red;
+}
+
+input:disabled {
+   background-color: lightgrey;
+}

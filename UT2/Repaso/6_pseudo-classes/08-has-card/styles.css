@@ -4,3 +4,10 @@
    - Resaltar .form que :has(input:invalid) con un borde rojo (cuando el email no sea válido)
 */
 
+.card:has(img) {
+   border: 2px solid blue;
+}
+
+.form:has(input:invalid) {
+   border: 2px solid red;
+}

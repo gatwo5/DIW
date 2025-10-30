@@ -5,3 +5,15 @@
    - Elementos impares con fondo #f3f4f6
 */
 
+.lista li:first-child {
+   font-weight: bold;
+}
+
+.lista li:last-child {
+   font-style: italic;
+}
+
+.lista li:nth-child(odd) {
+   background-color: #f3f4f6;
+}
+

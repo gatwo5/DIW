@@ -1,5 +1,9 @@
 .btn {
   background:#111827;
   color:#fff;
+  border: 2px transparent;
+}
 
+.btn:hover {
+  border: solid red;
 }

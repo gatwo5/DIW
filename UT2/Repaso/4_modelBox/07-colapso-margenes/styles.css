@@ -2,3 +2,6 @@
 .p2 { margin-top:40px; background:#efe; }
 
    /*Sugerencia: crea un nuevo contexto de formato en .p2 (p.ej. display: flow-root) o evita colapso con overflow:auto en un contenedor. */
+.body {
+   overflow: auto;
+}

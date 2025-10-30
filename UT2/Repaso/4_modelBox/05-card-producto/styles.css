@@ -8,3 +8,8 @@
 .card h2 { margin:12px 0 8px; }
 .card p { margin:0 0 8px; }
 
+.card img {
+  padding: 16px;
+  border: 2px;
+  margin: 24px;
+}

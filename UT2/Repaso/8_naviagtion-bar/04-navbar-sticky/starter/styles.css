@@ -1,0 +1,29 @@
+:root { --bg:#ffffff; --text:#111827; --accent:#2563eb; }
+*{box-sizing:border-box}
+body{margin:0;color:var(--text);font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif}
+header{background:var(--bg)}
+.brand{display:inline-block;padding:.75rem 1rem;font-weight:700;text-decoration:none;color:var(--text)}
+/* TODO: convierte esta lista en una navbar (quitar viñetas, márgenes, etc.) */
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #111111;
+}

@@ -1,0 +1,40 @@
+:root{--bg:#fff;--text:#111827;--accent:#2563eb}
+*{box-sizing:border-box}
+body{margin:0;color:var(--text);font-family:system-ui,sans-serif}
+header{background:var(--bg);border-bottom:1px solid #e5e7eb}
+.brand{display:inline-block;padding:.75rem 1rem;font-weight:700;text-decoration:none;color:var(--text)}
+.nav{list-style:none;margin:0;padding:0;display:flex;gap:.5rem;position:relative}
+.nav > li{position:relative}
+.nav > li > a{display:block;padding:.75rem 1rem;text-decoration:none;color:var(--text);border-radius:.5rem}
+.nav > li > a:hover,.nav > li > a:focus{background:#f3f4f6;outline:none}
+.nav > li > a.active{background:var(--accent);color:#fff}
+/* TODO: Oculta .submenu por defecto y muéstrala con :hover y :focus-within */
+
+/* Oculta la subnavegación por defecto */
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: var(--bg);
+  border: 1px solid #e5e7eb;
+  border-radius: .5rem;
+  list-style: none;
+  margin: 0;
+  padding: .5rem 0;
+  min-width: 10rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.has-submenu:hover .submenu,
+.has-submenu:focus-within .submenu {
+  display: block;
+}
+
+.submenu li a:hover,
+.submenu li a:focus {
+  background: #f3f4f6;
+  outline: none;
+}
+
+

@@ -1,0 +1,11 @@
+:root{--bg:#fff;--text:#111827;--accent:#2563eb}
+*{box-sizing:border-box}
+body{margin:0;color:var(--text);font-family:system-ui,sans-serif}
+header{background:var(--bg);border-bottom:1px solid #e5e7eb}
+.brand{display:inline-block;padding:.75rem 1rem;font-weight:700;text-decoration:none;color:var(--text)}
+.nav{list-style:none;margin:0;padding:0;display:flex;gap:.5rem;position:relative}
+.nav > li{position:relative}
+.nav > li > a{display:block;padding:.75rem 1rem;text-decoration:none;color:var(--text);border-radius:.5rem}
+.nav > li > a:hover,.nav > li > a:focus{background:#f3f4f6;outline:none}
+/* TODO: dar estilo a .mega como un panel con grid de 2-3 columnas y mostrarlo al hover/focus-within */
+.mega{}

@@ -1,0 +1,11 @@
+:root{--bg:#ffffff;--text:#111827;--accent:#2563eb;--surface:#f3f4f6}
+/* TODO: Define .dark con otros valores y aplica variables a la navbar */
+*{box-sizing:border-box}
+body{margin:0;color:var(--text);font-family:system-ui,sans-serif;background:var(--bg)}
+header{background:var(--bg);border-bottom:1px solid #e5e7eb;display:flex;align-items:center;gap:.5rem;padding:0 .5rem}
+.theme-btn{margin-left:auto;padding:.5rem 1rem;cursor:pointer}
+.theme-btn input{display:none}
+.nav{list-style:none;margin:0;padding:0;display:flex;gap:.25rem}
+.nav a{display:block;padding:.75rem 1rem;text-decoration:none;color:var(--text);border-radius:.5rem}
+.nav a:hover,.nav a:focus{background:var(--surface)}
+.nav a.active{background:var(--accent);color:#fff}

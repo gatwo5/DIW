@@ -72,3 +72,13 @@ main {
   font-size: 0.9rem;
   color: #777;
 }
+
+table, td, th {
+  text-align: center;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+li {
+  margin-top: 20px;
+}

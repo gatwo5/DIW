@@ -15,6 +15,10 @@
   box-sizing: border-box;
 }
 
+h2 {
+  color: var(--color-primary);
+}
+
 body {
   margin: 0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -31,8 +35,9 @@ body {
   border-bottom: 1px solid #ddd;
 }
 
-.logo h1 {
-  margin: 0;
+.logo img {
+  max-width: 120px;   
+  margin: 0;     
 }
 
 .subtitle {
@@ -55,17 +60,41 @@ main {
   margin-bottom: 1rem;
 }
 
-/* TODO: usar grid para la galería */
+/* -------------------- */
+
 .gallery-grid {
-  display: block; /* Por defecto: el alumnado lo cambiará a grid o flex */
+  display: grid;                   
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 1.5rem;
 }
 
-/* TODO: estilos de las figuras e imágenes (borde, sombra, transición, etc.) */
 .gallery-item {
-  margin-bottom: 1rem;
+  background: white;
+  border-radius: 6px;
+  overflow: hidden;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  margin-bottom: 1rem; 
 }
 
-/* TODO: hacer la galería responsive usando media queries */
+.gallery-item:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  .gallery-grid {
+    grid-template-columns: 1fr; 
+  }
+}
+
+/* ------------------------------------------- */
+
 .site-footer {
   text-align: center;
   padding: 1rem;
@@ -81,4 +110,8 @@ table, td, th {
 
 li {
   margin-top: 20px;
+}
+
+img {
+  max-width: 100%; 
 }

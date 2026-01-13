@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Práctica 3.3 - Animaciones simples</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style33.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Práctica 3.3 · Animaciones simples</h1>
+    <p class="subtitle">
+      GIF animado + animaciones básicas con CSS3
+    </p>
+  </header>
+
+  <main class="layout">
+    <!-- Sección GIF -->
+    <section class="card">
+      <h2>1. GIF animado</h2>
+      <p>
+        Crea un GIF animado a partir de varias imágenes fijas
+        y sustitúyelo en el siguiente bloque:
+      </p>
+      <div class="gif-wrapper">
+        <!-- TODO: sustituir ruta por el GIF creado -->
+        <img src="gif/mi-animacion.gif" alt="GIF de ejemplo" class="gif-image" />
+      </div>
+      <p class="note">
+        Para el gif he utilizado la página ezgif.com, con un número de fotogramas de 3, 
+        una duración de 3.24s y un peso de archivo de 343.23KiB.
+      </p>
+    </section>
+
+    <!-- Sección animación hover botón -->
+    <section class="card">
+      <h2>2. Animación hover con CSS</h2>
+      <p>
+        Diseña un botón con una animación suave al pasar el ratón
+        (cambios de color, tamaño, posición, etc.).
+      </p>
+      <button class="btn-animado">
+        Pasa el ratón por aquí
+      </button>
+    </section>
+
+    <!-- Sección animación continua -->
+    <section class="card">
+      <h2>3. Animación continua con @keyframes</h2>
+      <p>
+        Crea una animación continua (por ejemplo un icono que late o una burbuja
+        que se desplaza) usando la propiedad <code>animation</code>.
+      </p>
+      <div class="anim-demo">
+        <div class="burbujita"></div>
+        <p class="note">
+          La burbujita debe moverse o cambiar de tamaño de forma infinita
+          mediante una animación CSS.
+        </p>
+      </div>
+      <p>Opcional:</p>
+      <div class="opcional"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>DAW · DIW · RA3 - Práctica 3.3 </p>
+  </footer>
+</body>
+</html>
+
+<!--
+
+Tanto gifs como animaciones en css tienen sus ventajas e inconvenientes, así como sus casos de uso.
+
+Por un lado, los gifs son utilizados como vídeos cortos en bucle para agregar a nuestra página web. 
+Estos tienen la ventaja de ser bastante ligeros y fáciles de manejar con el principal inconveniente ligado al uso de gifs con licencia y sus respectivas imágenes.
+
+Por otro lado, las animaciones css son utilizadas para hacer nuestra página más atractiva, aportando dinamísmo a la misma y atractividad.
+Son altamente manejables debido a qué podemos modificarlas a nuestro antojo y de alto rendimiento por ser HTML.
+-->
